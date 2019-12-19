@@ -1,0 +1,13 @@
+{
+  "server": {
+    "host": "127.0.0.1",
+    "port": 4000
+  },
+  "internal-network-cidrs": [
+    "172.31.0.0/20"
+  ],
+  "routes": {
+    "inbound": "127.0.0.1:3002",
+    "outbound": "127.0.0.1:3003
+  }
+}

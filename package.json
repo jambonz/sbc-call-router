@@ -1,0 +1,26 @@
+{
+  "name": "sbc-call-router",
+  "version": "0.0.1",
+  "description": "webapp for routing sbc calls to inbound or outbound app",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "jslint": "eslint app.js lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "drachtio",
+    "sip"
+  ],
+  "author": "Dave Horton",
+  "license": "MIT",
+  "dependencies": {
+    "cidr-matcher": "^2.1.1",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "pino": "^5.15.0"
+  }
+}
