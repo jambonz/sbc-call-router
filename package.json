@@ -19,7 +19,6 @@
   "license": "MIT",
   "dependencies": {
     "cidr-matcher": "^2.1.1",
-    "config": "^3.2.4",
     "express": "^4.17.1",
     "pino": "^5.15.0"
   }
