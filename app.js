@@ -9,7 +9,7 @@ const router = require('./lib/router');
 const opts = Object.assign({
   timestamp: () => {return `, "time": "${new Date().toISOString()}"`;}
 }, {level: process.env.JAMBONES_LOGLEVEL || 'info'});
-const logger = app.locals = require('pino')(opts);
+const logger = app.locals.logger = require('pino')(opts);
 
 const port = process.env.HTTP_PORT || 3000;
 const server = app.listen(port, () => {
