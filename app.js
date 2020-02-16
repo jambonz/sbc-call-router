@@ -11,7 +11,7 @@ const opts = Object.assign({
 }, {level: process.env.JAMBONES_LOGLEVEL || 'info'});
 const logger = require('pino')(opts);
 
-const port = process.HTTP_PORT || 3000;
+const port = process.env.HTTP_PORT || 3000;
 const server = app.listen(port, () => {
   logger.info(`sbc call router app listening on ${JSON.stringify(server.address())} for http requests`);
 });
