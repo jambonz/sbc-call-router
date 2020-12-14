@@ -1,4 +1,4 @@
-# sbc-call-router
+# sbc-call-router ![Build Status](https://github.com/jambonz/sbc-call-router/workflows/CI/badge.svg)
 
 A simple [express-based](https://expressjs.com/) web callback for routing INVITEs to the sbc-inbound or sbc-outbound app.
 
