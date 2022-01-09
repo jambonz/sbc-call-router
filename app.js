@@ -1,5 +1,5 @@
 const assert = require('assert');
-assert.ok(!process.env.K8S && process.env.JAMBONES_NETWORK_CIDR, 'missing JAMBONES_NETWORK_CIDR env var');
+assert.ok(process.env.K8S || process.env.JAMBONES_NETWORK_CIDR, 'missing JAMBONES_NETWORK_CIDR env var');
 
 const express = require('express');
 const bodyParser = require('body-parser');
