@@ -1,6 +1,6 @@
 {
   "name": "sbc-call-router",
-  "version": "v0.7.2",
+  "version": "v0.7.3",
   "description": "webapp for routing sbc calls to inbound or outbound app",
   "main": "app.js",
   "directories": {
@@ -24,6 +24,7 @@
     "eslint": "^7.15.0",
     "eslint-plugin-promise": "^4.2.1",
     "express": "^4.17.1",
+    "husky": "^7.0.4",
     "pino": "^6.8.0"
   }
 }
