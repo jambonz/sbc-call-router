@@ -1,6 +1,6 @@
 {
   "name": "sbc-call-router",
-  "version": "0.8.4",
+  "version": "0.8.5",
   "description": "webapp for routing sbc calls to inbound or outbound app",
   "main": "app.js",
   "directories": {
