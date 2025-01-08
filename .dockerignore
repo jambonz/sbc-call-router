@@ -1,0 +1,13 @@
+README.md
+Dockerfile
+.dockerignore
+.git
+.gitignore
+.husky
+.github
+logs
+*.log
+.eslintignore
+.eslintrc.json
+npm-debug.log*
+node_modules/
