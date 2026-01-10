@@ -20,7 +20,7 @@
   "dependencies": {
     "cidr-matcher": "^2.1.1",
     "debug": "^4.4.0",
-    "express": "^4.21.2",
+    "express": "^4.22.0",
     "pino": "^10.1.0"
   },
   "devDependencies": {
