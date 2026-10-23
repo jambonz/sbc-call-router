@@ -3,6 +3,9 @@
   "version": "0.9.14",
   "description": "webapp for routing sbc calls to inbound or outbound app",
   "main": "app.js",
+  "engines": {
+    "node": ">= 24.22.1"
+  },
   "directories": {
     "lib": "lib"
   },
